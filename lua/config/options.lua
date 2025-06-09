@@ -1,6 +1,5 @@
 local options = {
   encoding = "utf-8",
-  fileencodings = "sjis, utf-8",
   fileencoding = "utf-8",
   title = true,
   backup = false,
