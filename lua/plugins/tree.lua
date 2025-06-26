@@ -4,8 +4,8 @@ return {
    sort_by = 'extension',
 
   view = {
-    width = '20%',
-    side = 'right',
+    width = '15%',
+    side = 'left',
     signcolumn = 'no',
   },
 
@@ -30,5 +30,5 @@ return {
   },
 
   on_attach = 'default'
- }
+ },
 }

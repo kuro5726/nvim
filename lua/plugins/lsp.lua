@@ -15,7 +15,7 @@ return {
     config = true,
     keys = {
       { "<C-space>", "<cmd>lua vim.lsp.completion.get()  <CR>", mode = "i" },
-      { "gh",        "<cmd>lua vim.lsp.buf.hover()       <CR>" },
+      { "gi",        "<cmd>lua vim.lsp.buf.hover()       <CR>" },
       { "gd",        "<cmd>lua vim.lsp.buf.definition()  <CR>" },
       { "gD",        "<cmd>lua vim.lsp.buf.declaration() <CR>" },
     },
