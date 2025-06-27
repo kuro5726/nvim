@@ -1,5 +1,4 @@
 local opts = { noremap = true, silent = true }
-local term_opts = { silent = true }
 
 --local keymap = vim.keymap
 local keymap = vim.api.nvim_set_keymap
@@ -57,6 +56,9 @@ keymap("n", "Y", "y$", opts)
 
 -- <Space>q で強制終了
 keymap("n", "<Space>q", ":<C-u>q!<Return>", opts)
+
+--- <Space>p で設定ファイルを開く
+keymap("n", "<Space>p", ":e ~/.config/nvim/init.lua<Return>", opts)
 
 -- ESC*2 でハイライトやめる
 keymap("n", "<Esc><Esc>", ":<C-u>set nohlsearch<Return>", opts)

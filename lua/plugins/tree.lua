@@ -2,7 +2,10 @@ return {
  "nvim-tree/nvim-tree.lua",
  opts = {
    sort_by = 'extension',
-
+   update_focused_file = {
+     enable = true,
+     update_cwd = true,
+   },
   view = {
     width = '15%',
     side = 'left',
