@@ -58,7 +58,7 @@ keymap("n", "Y", "y$", opts)
 keymap("n", "<Space>q", ":<C-u>q!<Return>", opts)
 
 --- <Space>p で設定ファイルを開く
-keymap("n", "<Space>p", ":e ~/.config/nvim/init.lua<Return>", opts)
+keymap("n", "<Space>p", ":split ~/.config/nvim/init.lua<Return>", opts)
 
 -- ESC*2 でハイライトやめる
 keymap("n", "<Esc><Esc>", ":<C-u>set nohlsearch<Return>", opts)
