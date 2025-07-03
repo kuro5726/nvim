@@ -63,6 +63,9 @@ keymap("n", "<Space>p", ":split ~/.config/nvim/init.lua<Return>", opts)
 -- ESC*2 でハイライトやめる
 keymap("n", "<Esc><Esc>", ":<C-u>set nohlsearch<Return>", opts)
 
+-- sjisにして開き，utf-8に変更
+keymap("n", "qw", ":e ++enc=sjis<Return>:set fenc=utf-8<Return>", opts)
+
 -- Insert --
 -- Press jk fast to exit insert mode
 keymap("i", "jk", "<ESC>", opts)

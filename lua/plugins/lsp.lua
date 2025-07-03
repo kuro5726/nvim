@@ -18,6 +18,7 @@ return {
       { "gi",        "<cmd>lua vim.lsp.buf.hover()       <CR>" },
       { "gd",        "<cmd>lua vim.lsp.buf.definition()  <CR>" },
       { "gD",        "<cmd>lua vim.lsp.buf.declaration() <CR>" },
+      { "<Space>e",  "<cmd>lua vim.diagnostic.open_float() <CR>" },
     },
   },
 }
