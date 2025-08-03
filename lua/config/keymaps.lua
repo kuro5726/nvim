@@ -66,6 +66,9 @@ keymap("n", "<Esc><Esc>", ":<C-u>set nohlsearch<Return>", opts)
 -- sjisにして開き，utf-8に変更
 keymap("n", "qw", ":e ++enc=sjis<Return>:set fenc=utf-8<Return>", opts)
 
+-- zen-mode
+keymap("n", "tt", ":ZenMode<Return>", opts)
+
 -- Insert --
 -- Press jk fast to exit insert mode
 keymap("i", "jk", "<ESC>", opts)
